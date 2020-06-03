@@ -1,0 +1,10 @@
+C:\Users\dell\Desktop\Parceal\segundoparcial\capaDatos\bin\Debug\capaDatos.dll
+C:\Users\dell\Desktop\Parceal\segundoparcial\capaDatos\bin\Debug\capaDatos.pdb
+C:\Users\dell\Desktop\Parceal\segundoparcial\capaDatos\obj\Debug\capaDatos.csprojAssemblyReference.cache
+C:\Users\dell\Desktop\Parceal\segundoparcial\capaDatos\obj\Debug\capaDatos.dll
+C:\Users\dell\Desktop\Parceal\segundoparcial\capaDatos\obj\Debug\capaDatos.pdb
+C:\Users\dell\Desktop\FredyDeLeon_0900_15_2988\serie3\Final\capaDatos\bin\Debug\capaDatos.dll
+C:\Users\dell\Desktop\FredyDeLeon_0900_15_2988\serie3\Final\capaDatos\bin\Debug\capaDatos.pdb
+C:\Users\dell\Desktop\FredyDeLeon_0900_15_2988\serie3\Final\capaDatos\obj\Debug\capaDatos.csprojAssemblyReference.cache
+C:\Users\dell\Desktop\FredyDeLeon_0900_15_2988\serie3\Final\capaDatos\obj\Debug\capaDatos.dll
+C:\Users\dell\Desktop\FredyDeLeon_0900_15_2988\serie3\Final\capaDatos\obj\Debug\capaDatos.pdb

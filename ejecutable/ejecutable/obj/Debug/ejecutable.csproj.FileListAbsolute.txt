@@ -1,0 +1,17 @@
+C:\Users\dell\Desktop\FredyDeLeon_0900_15_2988\serie3\ejecutable\ejecutable\bin\Debug\ejecutable.exe.config
+C:\Users\dell\Desktop\FredyDeLeon_0900_15_2988\serie3\ejecutable\ejecutable\bin\Debug\ejecutable.exe
+C:\Users\dell\Desktop\FredyDeLeon_0900_15_2988\serie3\ejecutable\ejecutable\bin\Debug\ejecutable.pdb
+C:\Users\dell\Desktop\FredyDeLeon_0900_15_2988\serie3\ejecutable\ejecutable\bin\Debug\capaDiseño.dll
+C:\Users\dell\Desktop\FredyDeLeon_0900_15_2988\serie3\ejecutable\ejecutable\bin\Debug\capaLogica.dll
+C:\Users\dell\Desktop\FredyDeLeon_0900_15_2988\serie3\ejecutable\ejecutable\bin\Debug\capaDatos.dll
+C:\Users\dell\Desktop\FredyDeLeon_0900_15_2988\serie3\ejecutable\ejecutable\bin\Debug\capaDiseño.pdb
+C:\Users\dell\Desktop\FredyDeLeon_0900_15_2988\serie3\ejecutable\ejecutable\bin\Debug\capaLogica.pdb
+C:\Users\dell\Desktop\FredyDeLeon_0900_15_2988\serie3\ejecutable\ejecutable\bin\Debug\capaDatos.pdb
+C:\Users\dell\Desktop\FredyDeLeon_0900_15_2988\serie3\ejecutable\ejecutable\obj\Debug\ejecutable.csprojAssemblyReference.cache
+C:\Users\dell\Desktop\FredyDeLeon_0900_15_2988\serie3\ejecutable\ejecutable\obj\Debug\ejecutable.Form1.resources
+C:\Users\dell\Desktop\FredyDeLeon_0900_15_2988\serie3\ejecutable\ejecutable\obj\Debug\ejecutable.Properties.Resources.resources
+C:\Users\dell\Desktop\FredyDeLeon_0900_15_2988\serie3\ejecutable\ejecutable\obj\Debug\ejecutable.csproj.GenerateResource.cache
+C:\Users\dell\Desktop\FredyDeLeon_0900_15_2988\serie3\ejecutable\ejecutable\obj\Debug\ejecutable.csproj.CopyComplete
+C:\Users\dell\Desktop\FredyDeLeon_0900_15_2988\serie3\ejecutable\ejecutable\obj\Debug\ejecutable.exe
+C:\Users\dell\Desktop\FredyDeLeon_0900_15_2988\serie3\ejecutable\ejecutable\obj\Debug\ejecutable.pdb
+C:\Users\dell\Desktop\FredyDeLeon_0900_15_2988\serie3\ejecutable\ejecutable\obj\Debug\ejecutable.CONTENEDOR.programa.resources
