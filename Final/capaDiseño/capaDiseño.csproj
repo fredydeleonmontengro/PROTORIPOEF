@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8209736C-689E-472A-A930-08ADB8D9D3CA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>capaDiseño</RootNamespace>
+    <AssemblyName>capaDiseño</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="consultas\bodegasexistentes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consultas\bodegasexistentes.Designer.cs">
+      <DependentUpon>bodegasexistentes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="consultas\marcas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consultas\marcas.Designer.cs">
+      <DependentUpon>marcas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="consultas\mostrarproductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consultas\mostrarproductos.Designer.cs">
+      <DependentUpon>mostrarproductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="interfazGrafica.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="interfazGrafica.Designer.cs">
+      <DependentUpon>interfazGrafica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\agregarbodega.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\agregarbodega.Designer.cs">
+      <DependentUpon>agregarbodega.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\agregarcliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\agregarcliente.Designer.cs">
+      <DependentUpon>agregarcliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\agregarMarca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\agregarMarca.Designer.cs">
+      <DependentUpon>agregarMarca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\agregarproveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\agregarproveedor.Designer.cs">
+      <DependentUpon>agregarproveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\agregarvendedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\agregarvendedor.Designer.cs">
+      <DependentUpon>agregarvendedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="procesos\nuevaventa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="procesos\nuevaventa.Designer.cs">
+      <DependentUpon>nuevaventa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="procesos\nuevoproducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="procesos\nuevoproducto.Designer.cs">
+      <DependentUpon>nuevoproducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="procesos\ordencompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="procesos\ordencompra.Designer.cs">
+      <DependentUpon>ordencompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="consultas\bodegasexistentes.resx">
+      <DependentUpon>bodegasexistentes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consultas\marcas.resx">
+      <DependentUpon>marcas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consultas\mostrarproductos.resx">
+      <DependentUpon>mostrarproductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="interfazGrafica.resx">
+      <DependentUpon>interfazGrafica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\agregarbodega.resx">
+      <DependentUpon>agregarbodega.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\agregarcliente.resx">
+      <DependentUpon>agregarcliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\agregarMarca.resx">
+      <DependentUpon>agregarMarca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\agregarproveedor.resx">
+      <DependentUpon>agregarproveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\agregarvendedor.resx">
+      <DependentUpon>agregarvendedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="procesos\nuevaventa.resx">
+      <DependentUpon>nuevaventa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="procesos\nuevoproducto.resx">
+      <DependentUpon>nuevoproducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="procesos\ordencompra.resx">
+      <DependentUpon>ordencompra.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\capaLogica\capaLogica.csproj">
+      <Project>{9A78DF17-0E50-4C04-A86A-52748E010DC5}</Project>
+      <Name>capaLogica</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
